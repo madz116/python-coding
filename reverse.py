@@ -1,0 +1,7 @@
+text=str(input("Enter a word: "))
+
+reverse=""
+
+for i in text:
+    reverse=i+reverse
+print("reverse: ",reverse)
